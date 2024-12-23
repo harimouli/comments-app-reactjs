@@ -1,0 +1,56 @@
+.comments-container {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+.comments-input-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.main-heading {
+  align-self: flex-start;
+  padding-left: 120px;
+  color: #1e293b;
+}
+.comments-image {
+  width: 350px;
+}
+.comment-textarea {
+  width: 50%;
+  padding: 10px;
+  margin-top: 12px;
+  outline: none;
+}
+.comment-input {
+  width: 30%;
+  padding: 2px;
+  outline: none;
+}
+.comments-section {
+  width: 90%;
+}
+.comments-count {
+  align-self: flex-start;
+  padding-left: 120px;
+}
+.hr2 {
+  margin-left: 120px;
+  margin-top: 20px;
+  height: 1px;
+  color: #64748b;
+}
+.count {
+  background-color: #0ea5e9;
+  width: 60px;
+  height: 40px;
+  font-size: 30px;
+  color: white;
+}

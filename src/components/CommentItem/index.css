@@ -1,0 +1,91 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+.comment-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+.name-time-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: -20px;
+}
+.profile-icon {
+  color: white;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 100px;
+}
+.info-container {
+  margin-right: 5px;
+  margin-top: 8px;
+}
+.name {
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 20px;
+  font-size: 20px;
+}
+.time {
+  padding-top: 5px;
+  color: #94a3b8;
+  font-size: 13px;
+}
+.inner-container {
+  display: flex;
+}
+.like-delete-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+hr {
+  height: 1px;
+  background-color: #000;
+  border: none;
+  width: 80%;
+  margin-left: 1px;
+}
+.button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+.onclick-buttons {
+  width: 30px;
+}
+.like {
+  font-size: 10px;
+}
